@@ -4,5 +4,5 @@ plugin_dirs = ["plugins"]
 
 [adapter.mirai]
 adapter_type = "ws"
-verify_key = "1234567890"
+verify_key = "zaq0829."
 qq = 3126132864
