@@ -1,18 +1,18 @@
 from filemanage import *
 import os
 
-self_QQ = '234465553'
-super_admin = '2496097294'
+self_QQ = '3126132864'
+super_admin = '2726242803'
 
 blacklist = syncfrom('blacklist.json', [])
-admin_QQ = syncfrom('admin.json', ['2496097294'])
+admin_QQ = syncfrom('admin.json', ['2726242803'])
 groupauth = syncfrom('groupauth.json', {})
 
-MAINPATH = 'C:\\Users\Administrator\Downloads\\flowerbot'
+MAINPATH = '/root/mcl/alicebot-starter'
 try:
     os.listdir(MAINPATH)
 except:
-    MAINPATH = 'C:\\Users\Luhao Yan\Desktop\工程\Mirai\\alicebot-starter\\'
+    MAINPATH = '/root/mcl/alicebot-starter'
 
 permanent = ['manage']
 
